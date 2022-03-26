@@ -3,13 +3,33 @@ package com.jingom.composecanvaspractice
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.jingom.composecanvaspractice.practice.TextTest
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.ui.Alignment
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import com.jingom.composecanvaspractice.practice.Scale
+import com.jingom.composecanvaspractice.practice.ScaleStyle
 
 class MainActivity : ComponentActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
 		super.onCreate(savedInstanceState)
 		setContent {
-			TextTest()
+			Box(
+				modifier = Modifier.fillMaxSize()
+			) {
+				Scale(
+					scaleStyle = ScaleStyle(
+						scaleWidth = 150.dp
+					),
+					modifier = Modifier
+						.fillMaxWidth()
+						.height(300.dp)
+						.align(Alignment.Center)
+				)
+			}
 		}
 	}
 }
