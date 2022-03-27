@@ -11,6 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.jingom.composecanvaspractice.practice.clock.Clock
+import com.jingom.composecanvaspractice.practice.path.PathTest
 
 class MainActivity : ComponentActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,12 +20,7 @@ class MainActivity : ComponentActivity() {
 			Box(
 				modifier = Modifier.fillMaxSize()
 			) {
-				Clock(
-					modifier = Modifier
-						.fillMaxWidth()
-						.height(300.dp)
-						.align(Alignment.Center)
-				)
+				PathTest()
 			}
 		}
 	}
