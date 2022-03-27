@@ -10,8 +10,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.jingom.composecanvaspractice.practice.Scale
-import com.jingom.composecanvaspractice.practice.ScaleStyle
+import com.jingom.composecanvaspractice.practice.clock.Clock
 
 class MainActivity : ComponentActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,10 +19,7 @@ class MainActivity : ComponentActivity() {
 			Box(
 				modifier = Modifier.fillMaxSize()
 			) {
-				Scale(
-					scaleStyle = ScaleStyle(
-						scaleWidth = 150.dp
-					),
+				Clock(
 					modifier = Modifier
 						.fillMaxWidth()
 						.height(300.dp)
