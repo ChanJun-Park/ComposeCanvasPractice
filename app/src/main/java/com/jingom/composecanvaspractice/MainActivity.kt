@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
 			Box(
 				modifier = Modifier.fillMaxSize()
 			) {
-				PathEffectPractice()
+				PathTextExample()
 			}
 		}
 	}
