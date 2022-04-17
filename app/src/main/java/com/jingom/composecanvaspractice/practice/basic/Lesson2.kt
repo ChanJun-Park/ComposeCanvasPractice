@@ -1,4 +1,4 @@
-package com.jingom.composecanvaspractice.practice
+package com.jingom.composecanvaspractice.practice.basic
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.gestures.detectTapGestures

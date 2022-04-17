@@ -1,4 +1,4 @@
-package com.jingom.composecanvaspractice.practice.clock
+package com.jingom.composecanvaspractice.practice.basic.clock
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp

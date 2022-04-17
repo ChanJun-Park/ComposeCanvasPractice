@@ -1,4 +1,4 @@
-package com.jingom.composecanvaspractice.practice.clock
+package com.jingom.composecanvaspractice.practice.basic.clock
 
 sealed class NeedleType {
 	object Hour: NeedleType()

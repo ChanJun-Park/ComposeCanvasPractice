@@ -10,7 +10,7 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.jingom.composecanvaspractice.practice.clock.Clock
+import com.jingom.composecanvaspractice.practice.basic.clock.Clock
 import com.jingom.composecanvaspractice.practice.path.*
 
 class MainActivity : ComponentActivity() {

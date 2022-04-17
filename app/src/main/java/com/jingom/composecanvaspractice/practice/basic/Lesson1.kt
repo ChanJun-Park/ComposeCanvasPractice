@@ -1,4 +1,4 @@
-package com.jingom.composecanvaspractice.practice
+package com.jingom.composecanvaspractice.practice.basic
 
 import android.graphics.Paint
 import androidx.compose.foundation.Canvas

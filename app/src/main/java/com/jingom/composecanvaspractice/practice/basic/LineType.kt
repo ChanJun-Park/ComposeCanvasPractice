@@ -1,4 +1,4 @@
-package com.jingom.composecanvaspractice.practice
+package com.jingom.composecanvaspractice.practice.basic
 
 sealed class LineType {
 	object Normal: LineType()
