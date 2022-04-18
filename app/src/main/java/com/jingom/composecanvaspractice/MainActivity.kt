@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.jingom.composecanvaspractice.practice.basic.clock.Clock
 import com.jingom.composecanvaspractice.practice.path.*
+import com.jingom.composecanvaspractice.practice.path.genderpicker.GenderPicker
 
 class MainActivity : ComponentActivity() {
 	override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +21,11 @@ class MainActivity : ComponentActivity() {
 			Box(
 				modifier = Modifier.fillMaxSize()
 			) {
-				PathTextExample()
+				GenderPicker(
+					modifier = Modifier.fillMaxSize()
+				) {
+
+				}
 			}
 		}
 	}
